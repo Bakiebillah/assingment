@@ -1,0 +1,185 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.685);
+    line-height: 150%;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-content{
+    width: 40%;
+    float: left;
+
+}
+.praimary-title{
+    position: relative;
+}
+.praimary-title h2{
+font-size: 55px;
+color: rgb(23, 24, 20);
+font-weight: 700;
+line-height: 130%;
+padding-left: 10px;
+position: relative;
+
+
+
+}
+
+.praimary-title::before{
+position: absolute;
+content: "";
+background:chocolate;
+width: 3px;
+height: 110px;
+top: 20px;
+}
+.color{
+    color: rgb(163, 187, 58);
+}
+.hero-content p{
+    color: rgba(0, 0, 0, 0.76);
+    line-height: 150%;
+    margin: 30px 0;
+}
+.btn{
+    padding: 12px 25px;
+    background: rgb(190, 91, 33);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 50px;
+
+}
+.hero-image{
+    width: 40%;
+    float: right;
+}
+.hero-image img{
+    width: 100%;
+}
+.mission-area{
+    margin: 100px 0;
+}
+.missions {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.title-2nd {
+    font-size:40px;
+    color: rgb(60, 7, 73);
+    text-align: center;
+}
+
+.single-item {
+    width: 30%;
+    background: rgba(98, 189, 192, 0.329);
+    padding: 30px;
+    border-radius: 30px;
+    display: inline-block;
+}
+.missions:nth-last-child(3){
+    margin-right:0;
+}
+.single-item img {
+    width: 100px;
+}
+.single-item h4{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.bg-2{
+    background: rgb(180, 147, 223);
+}
+.bg-3{
+    background: cornflowerblue;
+}
+
+
+.work-img{
+    width: 40%;
+}
+.work-img img{
+    width: 100%;
+}
+
+.work-content{
+    width: 55%;
+}
+
+.work-content h3{
+    font-size: 35px;
+    line-height: 110%;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.work-content p{
+    margin-bottom: 30px;
+}
+
+.work{
+    margin-bottom: 50px;
+}
+.build-area{
+    margin: 100px 0;
+}
+.bulid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bulid-img{
+    width: 40%;
+}
+.bulid-img img{
+    width: 100%;
+}
+.bulid-content{
+    width: 40%;
+}
+.bulid-content p{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.left{
+    text-align: left;
+}
+
+footer{
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+footer h5{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: block;
+}
+footer p{
+    color: #fff;
+}
+.color-2{
+    color: rgb(212, 26, 26);
+}
